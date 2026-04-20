@@ -1,0 +1,26 @@
+.banner {
+  padding: 150px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner h1, .banner p {
+  color: white;
+}
+
+.btn-yellow {
+  color: rgb(0, 0, 0);
+  background-color: #ffcd33;
+  transition: 0.4s;
+  padding: 14px 28px;
+  border-radius: 18px;
+  display: inline-block;
+  border: 1px solid #ffcd33;
+}
+
+.btn-yellow:hover {
+  background-color: rgb(2, 2, 2);
+  color: #ffcd33;
+  border-color: #ffcd33;
+}
